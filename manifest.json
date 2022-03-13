@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search On YouTube!",
+  "description": "Right click to search on YouTube. by Kriss",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    // "default_popup": "popup.html",
+    "default_title": "Search On YouTube!"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+    "event_page.js"
+    ],
+  "persistent": false
+  },
+  "permissions": [
+  "contextMenus"
+  ]
+}
